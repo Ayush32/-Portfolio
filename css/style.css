@@ -592,7 +592,7 @@ section:nth-child(2n+1) {
     margin-bottom: 20px;
     padding: 0 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
 }
