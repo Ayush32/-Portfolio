@@ -592,7 +592,7 @@ section:nth-child(2n+1) {
     margin-bottom: 20px;
     padding: 0 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 
 }
@@ -924,7 +924,7 @@ button:focus {
     width: 0;
     border: 1px dashed rgb(248, 84, 24);
     top: 10%;
-    left: 50%;
+    left: 50%!important;
     color: #433E3F;
 }
 
@@ -972,7 +972,7 @@ button:focus {
 @media screen and (max-width:1440px) {
    
     .timeline-divider {
-        left: 50% !important;
+        left: 50%!important;
     }
 }
 
@@ -1008,7 +1008,7 @@ button:focus {
     }
 
     .timeline-box::after {
-        left: -12% !important;
+        left: -12.5% !important;
     }
 
     #contact-form {
@@ -1090,6 +1090,7 @@ button:focus {
         width: 27vw !important;
         height: 11vw !important;
     }
+    
 
     .timeline-box {
         left: 12% !important;
@@ -1097,8 +1098,9 @@ button:focus {
     }
 
     .timeline-box::after {
-        left: -12% !important;
+        left: -12.4% !important;
     }
+    
 
     #contact-form {
         margin-right: 8%;
@@ -1150,6 +1152,10 @@ button:focus {
      #spinner {
         top: 25%;
          left: -18%!important;
+     }
+     .timeline-divider{
+         margin-top: 4%!important;
+         height: 68%!important;
      }
 
 }
