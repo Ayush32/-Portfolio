@@ -600,7 +600,7 @@ section:nth-child(2n+1) {
 .portfolio-image {
     position: relative;
     width: 300px;
-    height: 200px;
+    height: 210px;
     overflow: hidden;
     margin: 30px;
     background-repeat: no-repeat;
