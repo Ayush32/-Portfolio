@@ -1,2 +1,2 @@
 # My-Resume
-# I created my resume Uding HTML, CSS Jabscript, and Jquery.
+# I created my resume Using HTML, CSS Jabscript, and Jquery.
