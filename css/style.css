@@ -10,6 +10,10 @@ html {
     /* overflow-y: hidden; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 30px;
 }
@@ -616,7 +620,7 @@ section:nth-child(2n+1) {
 .portfolio-image {
     position: relative;
     width: 300px;
-    height: 210px;
+    height: 200px;
     overflow: hidden;
     margin: 30px;
     background-repeat: no-repeat;
@@ -854,6 +858,49 @@ button:focus {
     color: rgb(0, 255, 153);
     transform: scale(1.5);
     /* box-shadow: 0 0 4px 2px white; */
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rights {
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Josefin);
+}
+
+.rights h4 {
+    font-size: 0.8rem;
+    font-family: var(--Josefin);
+}
+
+.rights h4 a {
+    color: var(--white);
+    font-size: 0.8rem;
+    margin-left: 32%;
+    line-height: 30px;
+}
+
+#mybtn {
+    /* display: none; */
+    position: fixed;
+    bottom: 40px;
+    right:10px;
+    z-index: 99;
+    border: none;
+    color: rgb(255, 255, 255);
+    background:grey;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#mybtn:hover {
+   background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    color: black;
 }
 
 
@@ -1189,72 +1236,75 @@ button:focus {
         height: 68% !important;
     }
 
-    .portfolio-image {
+    .rights h4{
+        font-size: 0.6rem;
+    }
+    .rights h4 a{
+        font-size: 0.6rem;
+    }
     
-        width: 300px!important;
-        height: 230px!important;
 
-    }
+}
 
-    /* common margin classes */
-    .mb75px {
-        margin-bottom: 75px;
-    }
+/* common margin classes */
+.mb75px {
+    margin-bottom: 75px;
+}
 
-    .mb50px {
-        margin-bottom: 50px;
-    }
+.mb50px {
+    margin-bottom: 50px;
+}
 
-    .m0 {
-        margin: 0;
-    }
+.m0 {
+    margin: 0;
+}
 
-    /* common color classes */
-    .mb-blue {
-        background-color: #2857a4;
+/* common color classes */
+.mb-blue {
+    background-color: #2857a4;
 
-    }
+}
 
-    .mb-orange {
-        background-color: orangered;
-    }
+.mb-orange {
+    background-color: orangered;
+}
 
-    .mb-purple {
-        background-color: blueviolet;
-    }
+.mb-purple {
+    background-color: blueviolet;
+}
 
-    .mb-green {
-        background-color: #00CC33;
-    }
+.mb-green {
+    background-color: #00CC33;
+}
 
-    /* percentage classes */
+/* percentage classes */
 
-    .eighty-five-percent {
-        width: 85%;
-        height: inherit;
+.eighty-five-percent {
+    width: 85%;
+    height: inherit;
 
 
-    }
+}
 
-    .eighty-two-percent {
-        width: 82%;
-        height: inherit;
-    }
+.eighty-two-percent {
+    width: 82%;
+    height: inherit;
+}
 
-    .seventy-five-percent {
-        width: 75%;
-        height: inherit;
+.seventy-five-percent {
+    width: 75%;
+    height: inherit;
 
-    }
+}
 
-    .seventy-eight-percent {
-        width: 65%;
-        height: inherit;
+.seventy-eight-percent {
+    width: 65%;
+    height: inherit;
 
-    }
+}
 
-    .sixty-percent {
-        width: 60%;
-        height: inherit;
+.sixty-percent {
+    width: 60%;
+    height: inherit;
 
-    }
+}
