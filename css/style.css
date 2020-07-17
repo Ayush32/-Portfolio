@@ -279,57 +279,64 @@ ul {
 } */
 #particles-js {
     height: 85vh;
+    width: 100%;
     /* background-image: url("../Assests/aaron-burden-6jYoil2GhVk-unsplash.jpg"); */
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-    background-size: cover;
+    background-image: linear-gradient(to top, #1ad1d1 0%, #330867 100%);
+     background-size: cover;
+     /* background-color: #000000;
+     background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%); */
+     /* background-color: #2876f9;
+     background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%); */
+     /* background-color: #4d5dfb;
+     background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%); */
+     background-size: cover;
     /* background-position: center; */
     /* background-attachment: fixed; */
     padding-top: 1.2rem;
 
 }
+.main-header{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+}
 
-#name-social-container h4 {
-    font-size: 0.9rem;
+
+ #name-social-container h4 {
+    font-size: 1rem;
     color: white;
     /* text-align: center; */
     
     font-family: var(--Josefin);
     position: relative;
-    /* margin-left: 50%!important; */
-    /* margin-top: -30rem; */
+    margin-top: -10px;
+
 }
+
  #name-social-container {
-    margin-top: -30rem; 
+    /* margin-top: -0rem;  */
     text-align: center;
+    flex-direction: column;
     position: absolute;
     display: flex!important;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
-    /* margin-left: 37rem; */
+
+ 
 }
-#my-name {
+#my-name  {
     color: white;
-}
-.text-center{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin-left: 37rem!important;
-     position: relative;
-     /* width: 100%; */
+    font-size: 3.5rem;
+  
 
 }
+
 
 .button {
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+   
 }
-
 .button button {
     width: 9vw;
     height: 8vh;
@@ -345,9 +352,13 @@ ul {
 }
 
 button:hover {
-    color: black;
-    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
-}
+    /* color: black; */
+    /* background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%); */
+background-color: #ff0000;
+background-image: linear-gradient(315deg, #ff0000 0%, #ffc400 74%);
+    color: white;
+
+} 
 
 /* loader div */
 
@@ -532,10 +543,11 @@ section:nth-child(2n+1) {
     color: white;
 }
 
+
 .skills-display {
     width: 80%;
     padding: 10px;
-    margin-top: -5%;
+    margin-top: -2%;
     margin-bottom: 10px;
     position: relative;
     display: flex;
@@ -636,7 +648,7 @@ section:nth-child(2n+1) {
 .portfolio-image {
     position: relative;
     width: 300px;
-    height: 200px;
+    height: 210px;
     overflow: hidden;
     margin: 30px;
     background-repeat: no-repeat;
@@ -1058,10 +1070,7 @@ button:focus {
     .timeline-divider {
         left: 50% !important;
     }
-    .text-center{
-        margin-left: 34rem!important;
-    }
-}
+   
 
 @media screen and (max-width:1024px) {
     .button button {
@@ -1069,14 +1078,7 @@ button:focus {
         height: 4vw !important;
         margin-top: -2%;
     }
-     .text-center {
-         margin-left: 21.5rem !important;
-         
-     }
-
-     #name-social-container{
-         margin-top: -25rem
-     }
+  
 }
 
 
@@ -1085,10 +1087,7 @@ button:focus {
         margin: 0 !important;
     }
 
-     .text-center {
-         margin-left: 13.6rem !important;
-
-     }
+   
 
     #spinner {
         top: 15%;
@@ -1135,10 +1134,6 @@ button:focus {
         width: 80%;
         margin: 10%;
     }
-
-
-
-
 }
 
 @media only screen and (max-width:750px) {
@@ -1152,13 +1147,6 @@ button:focus {
     .nav .toggle-collapse {
         display: initial;
     }
-
-    .text-center {
-        margin-left: 3rem !important;
-
-    }
-
-
 }
 
 @media screen and (max-width:600px) {
@@ -1175,10 +1163,7 @@ button:focus {
         flex-wrap: nowrap !important;
         position: relative !important;
     }
-     .text-center {
-         margin-left: 1rem !important;
-
-     }
+    
 
     #spinner {
         top: 20%;
@@ -1242,17 +1227,6 @@ button:focus {
         margin-right: 50%;
     }
 
-
-
-
-
-    /* .timeline-box:nth-child(2n+1)::after{
-        left:-10.7%
-    }
-    .timeline-box:nth-child(2)::after{
-        left:-10.7%
-    }
-     */
 }
 
 @media only screen and (max-width: 520px) {
@@ -1283,34 +1257,11 @@ button:focus {
     .rights h4 a{
         font-size: 0.6rem;
     }
-     .text-center {
-         margin-left: 2.5rem !important;
-
-     }
-
-     .name-social-container{
-         margin-top: -40rem;
-     }
     
-
 }
 
-@media only screen and (max-width: 375px){
-      .text-center {
-          margin-left: 1rem !important;
 
-      }
 
-}
-@media only screen and (max-width: 320px){
-      .text-center {
-          margin-left: 1rem !important;
-      }
-      #my-name{
-          font-size: 3.3rem;
-      }
-
-}
 
 /* common margin classes */
 .mb75px {
@@ -1348,8 +1299,6 @@ button:focus {
 .eighty-five-percent {
     width: 85%;
     height: inherit;
-
-
 }
 
 .eighty-two-percent {
@@ -1372,5 +1321,4 @@ button:focus {
 .sixty-percent {
     width: 60%;
     height: inherit;
-
 }
