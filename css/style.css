@@ -86,7 +86,7 @@ ul {
 
 /* navigation start */
 .nav {
-    background: white;
+    background-image: linear-gradient(to bottom, #1ad1d1 -0%, #330867 0%);
     padding: 0 2rem;
     min-height: 10vh;
     height: 0rem;
@@ -114,7 +114,7 @@ ul {
 
 .nav .toggle-collapse .toggle-collapse i {
     font-size: 1.4rem;
-    color: var(--text-gray)
+    color: white !important;
 }
 
 .collapse {
@@ -124,23 +124,29 @@ ul {
 .nav .nav-items {
     display: flex;
     margin: 0;
+
 }
 
 .nav .nav-items .nav-link {
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
-    font-family: var(--Abel);
+    font-family: var(--Lexend);
     font-weight: 600;
     /* font-size: 1.1rem; */
 }
 
+ul li a {
+    color: white;
+}
+
 .nav .nav-items .nav-link:hover {
-    background-color: var(--midnight)
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+
 }
 
 .nav .nav-items .nav-link:hover a {
-    color: white;
+    color: black;
 }
 
 .nav .nav-brand a {
@@ -148,8 +154,8 @@ ul {
     display: block;
     padding: 1rem 0;
     font-family: var(--Josefin);
-    color: rgb(13, 0, 85);
-    /* font-size: 1.6rem; */
+    color: white
+        /* font-size: 1.6rem; */
 }
 
 .nav .social {
@@ -159,11 +165,11 @@ ul {
 
 .nav .social i {
     padding: 0 .2rem;
-
+    color: white;
 }
 
 .nav .social i:hover {
-    color: rgb(51, 35, 92);
+    color: white;
 }
 
 .nav .social a>i {
@@ -180,7 +186,6 @@ ul {
 
 .nav .nav-brand a:hover {
     transform: scale(1.4);
-    color: var(--midnight);
 }
 
 
